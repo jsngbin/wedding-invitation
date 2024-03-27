@@ -308,26 +308,26 @@
 		<button class="yellow" style="width:50%">
 			<a href="javascript:kakaoNavi()"><img src="images/kakaonavi.png"> &nbsp&nbsp카카오내비</a>
 		</button><button class="gray" style="width:50%">
-			<a href="tmap://route?goalname=웨딩시그니처&goalx=126.9173249&goaly=37.5526889"><img src="images/tmap.png"> &nbsp&nbsp티맵</a>
+			<a href="tmap://route?goalname=상록아트홀&goalx=127.042909941112&goaly=37.5039660612952"><img src="images/tmap.png"> &nbsp&nbsp티맵</a>
 		</button>
 		<p style="text-align: left;margin-top: 20px; font-size: 16px;">
-			<span style="color: rgba(0,0,0,0.8)">웨딩시그니처 2F 트리니티홀</span><br/>
-			서울시 마포구 양화로 87 (구, 서교동 378-7)<br/>
-			02-335-5400<br/>
+			<span style="color: rgba(0,0,0,0.8)">상록아트홀 5층 아트홀</span><br/>
+			서울시 강남구 언주로 508<br/>
+			02-564-5757<br/>
 		</p>
 		<p style="text-align: left; font-size: 16px;">
 			<span style="color: rgba(0,0,0,0.8)">지하철 이용 시</span><br/>
-			2,6호선 합정역 2번 출구 도보 4분
+			2호선, 분당선 "선릉역" 5번 출구 도보 5분<br/>
+			셔틀버스 운행(수시운행): 선릉역 5번 출구
 		</p>
 		<p style="text-align: left; font-size: 16px;">
 			<span style="color: rgba(0,0,0,0.8)">자차 이용 시</span><br/>
-			웨딩시그니처 건물 정문에서<br>
-			주차 안내를 받으시기 바랍니다.<br>
-			(혼잡할 수 있으니 대중교통 이용 바랍니다.)<br/>
+			"서울상록회관" 또는<br/>
+			"서울시 강남구 언주로 508" 입력<br/>
 		</p>
-		<p style="text-align: left; font-size: 16px;">
+		<!-- <p style="text-align: left; font-size: 16px;">
 			<span style="color: rgba(0,0,0,0.8)">화환은 정중히 사양합니다.</span><br/>
-		</p>
+		</p> -->
 	</div>
 </div>
 
@@ -464,11 +464,11 @@
 <script src="js/magnific-popup-options.js"></script>
 <!-- Main JS (Do not remove) -->
 <script src="js/main.js?v=20180722"></script>
-<script type="text/javascript" src="https://dapi.kakao.com/v2/maps/sdk.js?appkey=b5051d4b026ab8cba99a63e9d8c6031f"></script>
+<script type="text/javascript" src="https://dapi.kakao.com/v2/maps/sdk.js?appkey=4fb869bce91fadeabd21e220c53200a9"></script>
 <script>
   var container = document.getElementById('map');
   var options = {
-    center: new daum.maps.LatLng(37.5526889,126.9173249),
+    center: new daum.maps.LatLng(37.5039660612952,127.042909941112),
     level: 4
   };
 
@@ -478,9 +478,9 @@
 
   var positions = [
     {
-      title: '웨딩시그니처',
-      latlng: new daum.maps.LatLng(37.5526889,126.9173249),
-      link: "https://place.map.kakao.com/803348028"
+      title: '상록아트홀',
+      latlng: new daum.maps.LatLng(37.5039660612952,127.042909941112),
+      link: "https://place.map.kakao.com/2009675378"
 	}
   ];
 
@@ -511,12 +511,12 @@
 <script src="https://t1.kakaocdn.net/kakao_js_sdk/2.0.0/kakao.min.js"
   integrity="sha384-PFHeU/4gvSH8kpvhrigAPfZGBDPs372JceJq3jAXce11bVA6rMvGWzvP4fMQuBGL" crossorigin="anonymous"></script>
 <script type="text/javascript">
-    Kakao.init('b5051d4b026ab8cba99a63e9d8c6031f');
+    Kakao.init('4fb869bce91fadeabd21e220c53200a9');
     function kakaoNavi() {
         Kakao.Navi.start({
-            name:"웨딩시그니처",
-            x:126.9173249,
-            y:37.5526889,
+            name:"상록아트홀",
+            x:127.042909941112,
+            y:37.5039660612952,
             coordType:'wgs84'
         })
     }
